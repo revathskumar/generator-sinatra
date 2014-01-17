@@ -20,13 +20,20 @@ describe('sinatra generator', function () {
   it('creates expected files', function (done) {
     var expected = [
       // add files you expect to exist here.
-      '.jshintrc',
-      '.editorconfig'
+      '.bowerrc',
+      'Gemfile',
+      'Procfile',
+      'README.md',
+      'bower.json',
+      'config.ru',
+      '.gitignore',
+      'lib/temp.rb',
+      'templates/index.erb',
+      '.editorconfig',
+      'package.json',
+      '.ruby-version'
     ];
 
-    helpers.mockPrompt(this.app, {
-      'someOption': true
-    });
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
       helpers.assertFiles(expected);
