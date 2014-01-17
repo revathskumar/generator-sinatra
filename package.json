@@ -1,12 +1,9 @@
 {
   "name": "generator-sinatra",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman generator",
   "keywords": [
-    "yeoman-generator",
-    "sinatra",
-    "Boilerplate",
-    "yeoman"
+    "yeoman-generator"
   ],
   "license": "MIT",
   "main": "app/index.js",
@@ -29,9 +26,6 @@
   },
   "files": [
     "app"
-  ],
-  "keywords": [
-    "yeoman-generator"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
