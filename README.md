@@ -37,8 +37,8 @@ Finally, install npm and bower dependencies:
 
 ## Future
 
-[] option to choose template and testing framework
-[] Integrate with twitter bootstrap
+* option to choose template and testing framework
+* Integrate with twitter bootstrap
 
 ## License
 
