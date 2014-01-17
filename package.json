@@ -4,7 +4,12 @@
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "revathskumar/generator-sinatra",
+  "homepage": "https://github.com/revathskumar/generator-sinatra",
+  "bugs": "https://github.com/revathskumar/generator-sinatra/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/revathskumar/generator-sinatra.git"
+  },
   "author": {
     "name": "Revath S Kumar",
     "email": "rsk@revathskumar.com",
