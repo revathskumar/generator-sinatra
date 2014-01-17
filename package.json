@@ -2,6 +2,12 @@
   "name": "generator-sinatra",
   "version": "0.0.1",
   "description": "Yeoman generator",
+  "keywords": [
+    "yeoman-generator",
+    "sinatra",
+    "Boilerplate",
+    "yeoman"
+  ],
   "license": "MIT",
   "main": "app/index.js",
   "homepage": "https://github.com/revathskumar/generator-sinatra",
