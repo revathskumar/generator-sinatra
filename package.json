@@ -1,10 +1,11 @@
 {
   "name": "generator-sinatra",
   "version": "0.0.3",
-  "description": "Yeoman generator",
+  "description": "Yeoman generator for sinatra",
   "keywords": [
     "yeoman-generator",
     "sinatra",
+    "ruby",
     "Boilerplate",
     "yeoman"
   ],
